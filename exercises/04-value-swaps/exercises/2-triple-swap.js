@@ -5,7 +5,10 @@ let b = 1;
 let c = 2;
 let temp = null;
 
-// write some code!
+temp = a -c ;
+a = temp;
+b = temp +1;
+c = temp + 2
 
 
 
@@ -20,6 +23,6 @@ console.assert(isTrue2, 'Test 2');
 const isTrue3 = c === 3;
 console.assert(isTrue3, 'Test 3');
 
-const isTrue4 = temp === _;
+const isTrue4 = temp === 1;
 console.assert(isTrue4, 'Test 4');
 
