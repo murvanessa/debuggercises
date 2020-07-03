@@ -6,6 +6,7 @@
    ===
 */
 const mystery = (x, y) => {
+  return Number(x) === Number(y);
 
 };
 
