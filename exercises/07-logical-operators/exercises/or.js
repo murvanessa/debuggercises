@@ -3,7 +3,7 @@
 // write a function that behaves the same as ||
 //  ... without using ||, only using ? :
 const or = (left, right) => {
-  return _ ? _ : _;
+  return  Boolean(left)=== true? left : right;
 };
 
 const _1_expect = 0;
